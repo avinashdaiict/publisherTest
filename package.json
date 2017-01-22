@@ -1,0 +1,17 @@
+{
+  "name": "localpublish",
+  "version": "1.0.0",
+  "description": "Local app to use spr web publisher",
+  "main": "app/app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start "
+  },
+  "author": "Avinash Srivastava and Sushant Bhatia",
+  "license": "ISC"
+}
