@@ -1,17 +1,47 @@
 {
-  "name": "localpublish",
+  "name": "MySpxComponent",
   "version": "1.0.0",
-  "description": "Local app to use spr web publisher",
-  "main": "app/app.js",
-  "dependencies": {
-    "express": "^4.14.0",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1"
-  },
-  "devDependencies": {},
+  "description": "Sprinklr Component",
+  "main": "./dist/index.js",
+  "author": "Sprinklr, Inc.",
   "scripts": {
-    "test": "npm start "
+    "build": "webpack --config ./webpack.config.js"
   },
-  "author": "Avinash Srivastava and Sushant Bhatia",
-  "license": "ISC"
+  "dependencies": {
+    "classnames": "2.2.5",
+    "lodash": "4.14.0",
+    "react": "15.4.1",
+    "react-dom": "15.4.1",
+    "react-router": "3.0.0",
+    "spr-web-components": "^0.1.20",
+    "bootstrap": "^4.0.0-alpha.2",
+    "react-list": "^0.8.3",
+    "spr-selectbox": "0.0.8",
+    "spr-space-ui": "0.5.8-beta.5"
+  },
+  "devDependencies": {
+    "babel-core": "6.11.4",
+    "babel-loader": "6.2.9",
+    "babel-node-debug": "2.0.0",
+    "babel-plugin-transform-runtime": "6.15.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-stage-2": "6.11.0",
+    "babel-register": "6.11.5",
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "0.9.0",
+    "html-webpack-plugin": "2.24.1",
+    "i18n-webpack-plugin": "0.3.0",
+    "node-sass": "4.0.0",
+    "sass-loader": "4.1.1",
+    "style-loader": "0.13.1",
+    "svg-inline-loader": "0.7.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.2",
+    "webpack-cleanup-plugin": "0.4.1",
+    "webpack-dev-server": "1.16.2",
+    "webpack-dotenv-plugin": "1.4.0",
+    "webpack-node-externals": "1.5.4"
+  }
 }
